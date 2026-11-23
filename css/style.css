@@ -424,7 +424,22 @@ body {
 @media (max-width: 530px) {
     .card {
         width: 44%;
+        box-sizing: border-box;
     }
+
+    .card h2 {
+        font-size: 15px;
+    }
+
+    .card p {
+        font-size: 11px;
+    }
+
+    .card img {
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+
 
     .header>* {
         padding: 2px;
